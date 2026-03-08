@@ -86,6 +86,6 @@ def var(v):
     if v == 0:      # Base case
         return
     print(v)
-    var(v - 1)      # Recursive call
+          # Recursive call
 
 var(4)
